@@ -26,7 +26,13 @@ body{
 }
 
 .titre{
-padding: 10% auto;
+display: flex;
+justify-content: space-between;
+}
+
+.titre1 {
+  flex: 1;
+
 }
 
 a {
@@ -50,8 +56,8 @@ a:hover{
 .photo img {
   flex: 1;
   border-radius: 50%;
-  width: 30%;
-  margin: 10% 35%;
+  width: 80%;
+  margin-right: 0;
   border: 5px solid #000;
 }
 
@@ -109,22 +115,19 @@ margin-bottom: 5%;
 
 h1{
   background-color: white;
-  border-radius: 10%;
-  border: 5px solid #000:
-   font-size: 60px;
+  border: 5px solid #000000;
+   font-size: 30px;
    font-variant: small-caps;
    letter-spacing: 4px;
    color: black;
    text-align: center;
-   width: 50%;
-   margin: 10% auto;
-
    font-family: 'Roboto', sans-serif;
-
+   padding: 0 100px;
 }
 
 h2{
     font-size: 35px;
+    font-variant: small-caps;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -132,6 +135,7 @@ h2{
 
 h3{
   text-align: center;
+  font-variant: small-caps;
   font-family: 'Roboto', sans-serif;
   border: 1px solid #000000;
   background-color: white;
