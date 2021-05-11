@@ -171,31 +171,28 @@ text-align: center;
 
 .contact{
   display: flex;
-  justify-content: space-between;
-
+  flex-wrap: wrap;
+justify-content: space-between;
 }
 
 .liens{
 
   text-align: center;
   color: white;
-  padding: 0 2%;
-  width: 32%;
-  
+  width: 30%;
+  margin: 0 1%;
+
+
 
 }
 
 .liens img{
 
-  border-radius: 999em;
-  width: 150px;
-  height: 150px;
-  padding: 10px;
-  line-height: 0;
-  border: 10px solid #000;
+  border-radius: 50%;
+  width: 90%;
+  height: auto;
+  border: 5px solid #000;
   background-color: #eee;
-  margin-bottom: 50px;
-
 }
 
 
