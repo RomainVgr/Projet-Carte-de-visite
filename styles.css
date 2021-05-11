@@ -10,6 +10,7 @@ padding-top: 10%;
 
 .cartevisite {
   width: 80%;
+  padding: 2%;
   margin: auto;
   background-image:url(images/wallpaper.jpg);
     border: 5px solid #FFFFFF;
@@ -73,7 +74,6 @@ video {
 
   text-align: center;
   font-size: 15px;
-  font-family: cookie,cursive;
   font-style: oblique;
   color: white;
 
@@ -127,8 +127,6 @@ h2{
     font-size: 35px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    color: black;
-    text-shadow: 4px 4px #000000;
     color: white;
 }
 
