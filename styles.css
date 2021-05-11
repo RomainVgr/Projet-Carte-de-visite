@@ -183,14 +183,27 @@ justify-content: space-between;
 }
 
 .liens{
-
   text-align: center;
   color: white;
   width: 30%;
   margin: 0 1%;
+}
 
+.liens-bouton{
+  text-align: center;
+  width: 30%;
+  margin: 20px 1%;
+}
+.liens-bouton a {
+  color: black;
+  background-color: white;
 
-
+    padding: 10px 2%;
+}
+.liens-bouton a:hover {
+  color: white;
+  background-color: black;
+    padding: 10px 2%;
 }
 
 .liens img{
