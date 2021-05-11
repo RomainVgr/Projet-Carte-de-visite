@@ -37,12 +37,11 @@ flex-wrap: nowrap;
 
 a {
   text-decoration: none;
-  line-height: 50px;
-  color: white;
+  color: #708090;
 }
 
 a:hover{
-  color: #708090;
+  color: white;
 }
 
 
@@ -138,6 +137,7 @@ h3{
   text-align: center;
   font-variant: small-caps;
   font-family: 'Roboto', sans-serif;
+  font-size: 25px;
   border: 1px solid #000000;
   background-color: white;
   color: black;
