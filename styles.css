@@ -121,8 +121,8 @@ h1{
    color: black;
    text-align: center;
    font-family: 'Roboto', sans-serif;
-   padding: 0 100px;
-   width: 80%;
+   padding: 0 50px;
+   max-width: 50%;
 }
 
 h2{
