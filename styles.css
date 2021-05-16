@@ -9,12 +9,12 @@ padding-top: 10%;
 
 
 .cartevisite {
-  width: 80%;
+  width: 60%;
   padding: 2%;
   margin: auto;
   background-image:url(images/wallpaper.jpg);
     border: 5px solid #FFFFFF;
-    max-width: 850px;
+  /*  max-width: 850px; */
 
 }
 
