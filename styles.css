@@ -27,6 +27,7 @@ body{
 
 .titre{
 display: flex;
+flex-wrap: nowrap;
 }
 
 .titre1 {
@@ -101,15 +102,15 @@ video {
 
 hr {
 
-margin-left: 20%;
-margin-right: 20%;
-margin-top: 5%;
-margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 h1{
-  background-color: white;
-  border: 5px solid #000000;
+   background-color: white;
+   border: 5px solid #000000;
    font-size: 30px;
    font-variant: small-caps;
    letter-spacing: 4px;
@@ -129,14 +130,14 @@ h2{
 }
 
 h3{
-  text-align: center;
-  font-variant: small-caps;
-  font-family: 'Roboto', sans-serif;
-  font-size: 25px;
-  border: 1px solid #000000;
-  background-color: white;
-  color: black;
-   border-radius: 999em;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    border: 1px solid #000000;
+    background-color: white;
+    color: black;
+    border-radius: 999em;
 }
 
 h4{
@@ -146,19 +147,18 @@ h4{
 }
 
 p {
-text-align: center;
+    text-align: center;
 
 }
 
 .motiv{
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 }
 
 
 
 .motiv img{
-
 
      width: 400px;
      height: 350px;
@@ -172,35 +172,35 @@ text-align: center;
 
 
 .contact{
-  display: flex;
-  flex-wrap: wrap;
-justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .liens{
-  text-align: center;
-  color: white;
-  width: 30%;
-  margin: 0 1%;
+    text-align: center;
+    color: white;
+    width: 30%;
+    margin: 0 1%;
 }
 
 .liens-bouton{
-  text-align: center;
-  width: 30%;
-  margin: 20px 1%;
+    text-align: center;
+    width: 30%;
+    margin: 20px 1%;
 
 }
 .liens-bouton a {
   color: black;
   background-color: white;
   border: 3px solid #000;
-    padding: 10px 2%;
+    padding: 10px;
 
 }
 .liens-bouton a:hover {
   color: white;
   background-color: black;
-    padding: 10px 2%;
+    padding: 10px;
 }
 
 .liens img{
