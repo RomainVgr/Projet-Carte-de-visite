@@ -27,7 +27,6 @@ body{
 
 .titre{
 display: flex;
-flex-wrap: nowrap;
 }
 
 .titre1 {
